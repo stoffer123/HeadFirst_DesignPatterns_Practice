@@ -13,7 +13,7 @@
             
             //Add observers to subject's observer list
             subject.addObserver(abstractStringObserver);
-            subject.addObserver(abstractStringObserver);
+            subject.addObserver(abstractIntObserver);
 
             //Write the initial values of the observers.
             StringObserver stringObserver = (StringObserver) abstractStringObserver;

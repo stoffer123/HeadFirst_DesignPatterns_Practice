@@ -60,7 +60,8 @@ namespace Observer_Pattern
         //For the IntObserver class
         public int getIntInfo()
         {
-            return 10;
+            int intToReturn = 10;
+            return intToReturn;
         }
     }
 }
