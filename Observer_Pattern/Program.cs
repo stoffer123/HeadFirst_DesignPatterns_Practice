@@ -27,7 +27,7 @@
             //Write new observer values taken from the subject
             stringObserver.printString();
             intObserver.printInt();
-
+            Console.ReadKey();
 
         }
     }
