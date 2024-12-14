@@ -8,7 +8,7 @@ using System.Transactions;
 
 namespace Decorator_Pattern.Beverages
 {
-    class HouseBlend : Beverage
+    public class HouseBlend : Beverage
     {
         private double cost;
         private string description;
@@ -19,8 +19,14 @@ namespace Decorator_Pattern.Beverages
             cost = 2;
         }
 
-        
+        public override double Cost()
+        {
+            return cost;
+        }
 
-
+        public override string Description()
+        {
+            return description;
+        }
     }
 }
