@@ -6,10 +6,23 @@ namespace FactoryMethod
     {
         static void Main(string[] args)
         {
-            PizzaStore pizzaStore = new NYPizzaStore();
+            PizzaStore nypizzaStore = new NYPizzaStore();
 
-            pizzaStore.orderPizza("veggie");
-            pizzaStore.orderPizza("cheese");
+
+            nypizzaStore.orderPizza("veggie");
+            Console.WriteLine("");
+            nypizzaStore.orderPizza("cheese");
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+
+            PizzaStore chicagoPizzaStore = new ChicagoPizzaStore();
+
+            chicagoPizzaStore.orderPizza("veggie");
+            Console.WriteLine("");
+            chicagoPizzaStore.orderPizza("cheese");
+
 
             Console.ReadKey();
         }
