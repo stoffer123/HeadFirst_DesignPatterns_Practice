@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory", "SimpleFact
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{1687AB03-78CD-4943-8036-E03B56FCA351}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{3718578F-230E-4969-B78B-3560748A8100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{A6CF518F-4446-403A-AA21-B955147F1138}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{1687AB03-78CD-4943-8036-E03B56FCA351}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1687AB03-78CD-4943-8036-E03B56FCA351}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1687AB03-78CD-4943-8036-E03B56FCA351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3718578F-230E-4969-B78B-3560748A8100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3718578F-230E-4969-B78B-3560748A8100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3718578F-230E-4969-B78B-3560748A8100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3718578F-230E-4969-B78B-3560748A8100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6CF518F-4446-403A-AA21-B955147F1138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6CF518F-4446-403A-AA21-B955147F1138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6CF518F-4446-403A-AA21-B955147F1138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6CF518F-4446-403A-AA21-B955147F1138}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
